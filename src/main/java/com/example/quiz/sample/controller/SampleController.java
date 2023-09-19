@@ -11,7 +11,7 @@ public class SampleController {
 	@GetMapping
 	public String sample(Model model) {
 		model.addAttribute("title", "SamplePage");
-		model.addAttribute("message", "これはサンプルページ2です。");
+		model.addAttribute("message", "これはサンプルページです。");
 		return "sample";
 	}
 }
